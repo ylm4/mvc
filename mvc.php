@@ -29,7 +29,7 @@ class Controller {
 
 }
 echo '<h3>MVC Application</h3>';
-echo '<h4>View Github <a href= " ">Here</a></h4>';
+echo '<h4>View Github <a href= "https://github.com/ylm4/mvc/blob/master/mvc.php ">Here</a></h4>';
 $model = new Model();
 $controller= new Controller($model);
 $view = new View ($controller, $model);
